@@ -1,6 +1,15 @@
 # cypress_test
 Cypress Test for client
 
+### For running demo with UI:
+- Download Cypress for Desktop https://download.cypress.io/desktop
+- To install, just extract the downloaded Zip file to a folder of choice
+- After installation, open/run Cypress for Desktop (Cypress.exe) and add the `cypress_test` as a project
+- To add `cypress_test` as a project, drag the folder to Cypress for Desktop or click on the "select manually" link
+- Click on `cypress_test` after adding it as a project
+- The `signup_spec.js` file should now be displayed, click on the file
+- Cypress for Desktop will now run a version of the Google Chrome/Electron browser and run the chosen spec file
+
 ### command.js
 Added a custom function `visitSignup()` to be called before every test.
 
